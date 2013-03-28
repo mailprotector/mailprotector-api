@@ -31,17 +31,17 @@ For most actions that return multiple results there is a set of parameters that 
 specify how the results should be returned. The following parameters may be specified in the 
 query string for actions that support them:
 
-* offset - integer specifying the index of the first record to return (defaults to 0)
-* limit - integer specifying how many records to return starting at the offset 
+* `offset` - integer specifying the index of the first record to return (defaults to 0)
+* `limit` - integer specifying how many records to return starting at the offset 
 index (defaults to 50 for most actions)
-* all - a value of “true” indicates that the offset and limit should be ignored and 
+* `all` - a value of “true” indicates that the offset and limit should be ignored and 
 all records should be returned
-* filter_field - property of the list members to search on (all applicable properties are 
+* `filter_field` - property of the list members to search on (all applicable properties are 
 searched if this is not specified)
-* filter_value - value to search for in the properties specified by filter_field
-* sort_column - property of the list members to sort on (each list method has its own 
+* `filter_value` - value to search for in the properties specified by filter_field
+* `sort_column` - property of the list members to sort on (each list method has its own 
 default property to sort on if this is not specified)
-* sort_dir - direction to sort the results in, accepted values are “asc” and “desc” for 
+* `sort_dir` - direction to sort the results in, accepted values are “asc” and “desc” for 
 ascending and descending order
 
 
