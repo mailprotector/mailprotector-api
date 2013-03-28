@@ -52,7 +52,7 @@ Create account
 * `POST /accounts.xml` will create a new project from the parameters passed.
 
 Parameters:
-* name (required): Name for this account.
+* `name`: Name for this account.
 
 Example request:
 
@@ -81,7 +81,7 @@ Update account
 * `PUT /accounts/#{id}.xml` will update an existing account with new information from the submitted XML.
 
 Parameters:
-* name: Name for this account.
+* `name`: Name for this account.
 
 Example request:
 

@@ -84,7 +84,7 @@ Move domain
 * `POST /domains/#{id}/move.xml` will move the target domain to the specified account.
 
 Parameters:
-* account_id: ID of the account to move this domain to.
+* `account_id`: ID of the account to move this domain to.
 
 Example request:
 
