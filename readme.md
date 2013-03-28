@@ -45,8 +45,8 @@ default property to sort on if this is not specified)
 ascending and descending order
 
 
-API ready for use
------------------
+Available APIs
+--------------
 
 * [Accounts](https://github.com/virtualconnect/mailprotector-api/blob/master/sections/accounts.md)
 * [Domains](https://github.com/virtualconnect/mailprotector-api/blob/master/sections/domains.md)
