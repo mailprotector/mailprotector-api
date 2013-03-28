@@ -68,7 +68,7 @@ API ready for use
 Wrappers and example code
 ---------------------
 
-Browse the [example code and wrappers](https://github.com/virtualconnect/mailprotector-api/blob/master/libraries/) you can use. We will be adding more examples and wrappers to this list.
+Browse the [example code and wrappers](https://github.com/virtualconnect/mailprotector-api/blob/master/libraries/) you can use.
 
 Wrote your own API wrapper? Feel free to open a pull request and add to this list!
 
