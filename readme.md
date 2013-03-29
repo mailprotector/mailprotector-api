@@ -56,6 +56,7 @@ Available APIs
 * [Spam Tolerance](https://github.com/virtualconnect/mailprotector-api/blob/master/sections/spam_tolerance.md)
 * [Settings](https://github.com/virtualconnect/mailprotector-api/blob/master/sections/settings.md)
 * [Invoices](https://github.com/virtualconnect/mailprotector-api/blob/master/sections/invoices.md)
+* [Statistics](https://github.com/virtualconnect/mailprotector-api/blob/master/sections/statistics.md)
 
 
 Wrappers and example code
