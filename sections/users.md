@@ -192,26 +192,28 @@ All of the [common list parameters](https://github.com/virtualconnect/mailprotec
 Example response:
 
 ```xml
-<inbound_summaries>
-  <user_summary>
-    <user_id>79783</user_id>
-    <username>abuse</username>
-    <spam>0</spam>
-    <virus>0</virus>
-    <policy>0</policy>
-    <delivered>0</delivered>
-    <total>0</total>
-  </user_summary>
-</inbound_summaries>
-<outbound_summaries>
-  <user_summary>
-    <user_id>79783</user_id>
-    <username>abuse</username>
-    <spam>0</spam>
-    <virus>0</virus>
-    <policy>0</policy>
-    <delivered>0</delivered>
-    <total>0</total>
-  </user_summary>
-</outbound_summaries>
+<message_summaries>
+	<inbound_summaries>
+	  <user_summary>
+	    <user_id>79783</user_id>
+	    <username>abuse</username>
+	    <spam>0</spam>
+	    <virus>0</virus>
+	    <policy>0</policy>
+	    <delivered>0</delivered>
+	    <total>0</total>
+	  </user_summary>
+	</inbound_summaries>
+	<outbound_summaries>
+	  <user_summary>
+	    <user_id>79783</user_id>
+	    <username>abuse</username>
+	    <spam>0</spam>
+	    <virus>0</virus>
+	    <policy>0</policy>
+	    <delivered>0</delivered>
+	    <total>0</total>
+	  </user_summary>
+	</outbound_summaries>
+</message_summaries>
 ```
