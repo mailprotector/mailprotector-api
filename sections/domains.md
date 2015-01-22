@@ -101,3 +101,46 @@ Delete account
 
 This will return `200 OK` if it was successful. If the manager does not have access to delete the domain, you'll see `403 Forbidden`.
 
+Domain Summary Report
+---------------------
+
+* `GET /reports/domain_summary/#{id}.xml` will return usage statistics for the domain. The statistics include a list of users and their corresponding email traffic statistics.
+
+This will return `200 OK` if it was successful. If the manager does not have access to view the domain, you'll see `403 Forbidden`.
+
+```xml
+<?xml version="1.0" encoding="UTF-8"?>
+<report>
+  <traffic_summary>
+    <blocked_percentage>76.92307692307693</blocked_percentage>
+    <blocked_per_day>1</blocked_per_day>
+    <time_between_spam>18</time_between_spam>
+    <spam_count>36</spam_count>
+    <viruses_count/>
+    <attacks_count/>
+    <policy_count>0</policy_count>
+    <delivered_count>12</delivered_count>
+    <total_count>52</total_count>
+  </traffic_summary>
+  <users>
+    <user>
+      <id>620178</id>
+      <name>alerts</name>
+      <spam>0</spam>
+      <virus>0</virus>
+      <policy>0</policy>
+      <delivered>0</delivered>
+      <total>0</total>
+    </user>
+    <user>
+      <id>603924</id>
+      <name>all</name>
+      <spam>0</spam>
+      <virus>0</virus>
+      <policy>0</policy>
+      <delivered>0</delivered>
+      <total>0</total>
+    </user>
+  </users>
+</report>
+```
