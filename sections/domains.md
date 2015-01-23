@@ -106,6 +106,11 @@ Domain Summary Report
 
 * `GET /reports/domain_summary/#{id}.xml` will return usage statistics for the domain. The statistics include a list of users and their corresponding email traffic statistics.
 
+Parameters:
+
+* `date_start`: The beginning of the date range to pull statistics. Defaults to 7 days ago.
+* `date_end`: The end of the date range to pull statistics. Defaults to current day.
+
 This will return `200 OK` if it was successful. If the manager does not have access to view the domain, you'll see `403 Forbidden`.
 
 ```xml
