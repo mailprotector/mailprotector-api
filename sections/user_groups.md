@@ -13,16 +13,33 @@ Get user groups
 	 <domain_id type="integer">32</domain_id>
 	 <id type="integer">303</id>
 	 <name>observers</name>
+	 <created_at>2013-06-04 20:27:28 UTC</created_at>
+         <services>
+         	<service>CloudFilter Email Security</service>
+         	<service>Exchange+ Premium</service>
+         	<service>SafeSend Outbound</service>
+         </services>
+         <user_count>5</user_count>
  </user_group>
  <user_group>
 	 <domain_id type="integer">32</domain_id>
 	 <id type="integer">27</id>
 	 <name>other</name>
+	 <created_at>2013-06-04 20:27:28 UTC</created_at>
+         <services>
+         	<service>CloudFilter Email Security</service>
+         </services>
+         <user_count>5</user_count>
  </user_group>
  <user_group>
 	 <domain_id type="integer">32</domain_id>
 	 <id type="integer">64</id>
 	 <name>office</name>
+	 <created_at>2013-06-04 20:27:28 UTC</created_at>
+         <services>
+         	<service>CloudFilter Email Security</service>
+         </services>
+         <user_count>5</user_count>
  </user_group>
 </user-groups>
 ```
