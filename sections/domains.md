@@ -45,7 +45,7 @@ Get domain
 </domain>
 ```
 
-Create account
+Create domain (or alias)
 --------------
 
 * `POST /domains.xml` will create a new domain from the parameters passed.
